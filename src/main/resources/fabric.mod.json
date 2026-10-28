@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "campbosses",
+  "version": "${version}",
+  "name": "Camp Bosses",
+  "description": "Popups, sounds and respawn timers for camp bosses.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.campbosses.CampBossesMod"] },
+  "mixins": ["campbosses.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
