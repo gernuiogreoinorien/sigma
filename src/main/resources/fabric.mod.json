@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "campbosses",
+  "id": "autoexplootbox",
   "version": "${version}",
-  "name": "Camp Bosses",
-  "description": "Popups, sounds and respawn timers for camp bosses.",
+  "name": "Auto EXP Lootbox",
+  "description": "When a 'Gain EXP' objective shows in the action bar, opens EXP Lootboxes from your hotbar until the goal is met, then returns to slot 1.",
   "environment": "client",
-  "entrypoints": { "client": ["com.campbosses.CampBossesMod"] },
-  "mixins": ["campbosses.mixins.json"],
+  "entrypoints": { "client": ["com.autoexp.AutoExpLootbox"] },
+  "mixins": ["autoexplootbox.mixins.json"],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~1.21.11",
